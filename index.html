@@ -29,6 +29,11 @@
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
 
+  <!-- Preloads -->
+  <link rel="preload" href="main.dart.js" as="script">
+  <link rel="preload" href="sqlite3.wasm" as="fetch" crossorigin fetchpriority="low">
+  <link rel="preload" href="powersync_db.worker.js" as="fetch" crossorigin>
+  
   <title>flutter_mx_v_0_3</title>
   <link rel="manifest" href="manifest.json">
 </head>
